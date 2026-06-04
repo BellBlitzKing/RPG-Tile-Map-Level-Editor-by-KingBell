@@ -381,7 +381,7 @@
 //const mapsList = ['./maps/ioMapsData.json', './maps/ioMapsData.json', './maps/ioMapsData.json', './maps/ioMapsData.json'];
 
 const mapsList = ['./maps/ioMapsData.json'];
-const randomIndex = Math.floor(Math.random() * mapsList.length);
+const randomIndex = 0; //Math.floor(Math.random() * mapsList.length); Use 0 if just one map. Use Math.floor etc. if mapList has multiple map options we may want to load/pick from
 console.log(mapsList[randomIndex]);
 
                   fetch(mapsList[randomIndex]).then(r => r.json()).then(data => {
