@@ -1,0 +1,34 @@
+{
+  "name": "tilemap-editor",
+  "version": "0.7.8",
+  "description": "RPG Tile Map Level Builder to make maps with Fantasy tiles & sprites!",
+  "main": "src/tilemap-editor.js",
+  "scripts": {
+    "start": "serve",
+    "predeploy": "node updatePwa.js",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder/tilemap-editor.git"
+  },
+  "keywords": [
+    "tilemap",
+    "level",
+    "editor",
+    "gamedev",
+    "builder",
+    "pixel",
+    "tilset"
+  ],
+  "author": "KingBell on Itch.io",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder/issues"
+  },
+  "homepage": "https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.2",
+    "serve": "^12.0.0"
+  }
+}

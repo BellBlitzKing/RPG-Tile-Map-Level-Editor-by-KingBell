@@ -1,0 +1,17 @@
+{
+  "background_color": "black",
+  "description": "RPG Tile Map Level Builder to make maps with Fantasy tiles & sprites!",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512",
+      "type": "image/ico",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "RPG Tile Map Level Editor by KingBell",
+  "short_name": "RPG Tile Map Level Editor",
+  "start_url": "/tilemap-editor/index.html",
+  "theme_color": "purple"
+}
