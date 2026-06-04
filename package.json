@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder/tilemap-editor.git"
+    "url": "git+https://github.com/BellBlitzKing/RPG-Tile-Map-Level-Editor-by-KingBell/tilemap-editor.git"
   },
   "keywords": [
     "tilemap",
@@ -24,9 +24,9 @@
   "author": "KingBell on Itch.io",
   "license": "",
   "bugs": {
-    "url": "https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder/issues"
+    "url": "https://github.com/BellBlitzKing/RPG-Tile-Map-Level-Editor-by-KingBell/issues"
   },
-  "homepage": "https://github.com/BellBlitzKing/Map-Maker-RPG-Level-Builder#readme",
+  "homepage": "https://github.com/BellBlitzKing/RPG-Tile-Map-Level-Editor-by-KingBell#readme",
   "devDependencies": {
     "gh-pages": "^3.2.2",
     "serve": "^12.0.0"
