@@ -381,10 +381,11 @@
 //const mapsList = ['./maps/ioMapsData.json', './maps/ioMapsData.json', './maps/ioMapsData.json', './maps/ioMapsData.json'];
 
 const mapsList = ['./maps/ioMapsData.json'];
-const randomIndex = 0; //Math.floor(Math.random() * mapsList.length); Use 0 if just one map. Use Math.floor etc. if mapList has multiple map options we may want to load/pick from
-console.log(mapsList[randomIndex]);
+// const randomIndex = 0; Math.floor(Math.random() * mapsList.length); Use 0 if just one map. Use Math.floor etc. if mapList has multiple map options we may want to load/pick from
+console.log(mapsList[0]);
 
-                  fetch(mapsList[randomIndex]).then(r => r.json()).then(data => {
+                  //fetch(mapsList[randomIndex]).then(r => r.json()).then(data => {  //use for later when I pick from maps instead of 1 default map
+					fetch(mapsList[0]).then(r => r.json()).then(data => {
                     tileMapData = data;
                     initTilemapEditor();
                   }).catch(() => initTilemapEditor())
