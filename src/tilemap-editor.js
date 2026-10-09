@@ -159,12 +159,12 @@
                             <button value=0 style="height: 32px; width: 110px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;background-color: aliceblue;color: #252c39;font-weight: bolder;font-size: medium;border-bottom: none !important;border-color:  transparent;/* outline-color: transparent; */border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;" 
 							onclick="document.getElementById('mapholder').style.display = 'table' ; document.getElementById('card_left_column_alt').scrollTo({ left: 0, top: this.value}) ; document.getElementById('tileGroupButtons').style.display = 'block'"
 
-							class="tab active" data-tab="home" id="myTiles" title="Show Tiles List 📚">Tiles 📚</button>
+							class="tab" data-tab="home" id="myTiles" title="Show Tiles List 📚">Tiles 📚</button>
                             <button style="height: 32px; width: 110px;margin-top: 10px;border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 							onclick="document.getElementById('mapholder').style.display = 'none';" onclick="document.getElementById('tileGroupButtons').style.display = 'none';" 
 							onmouseup="document.getElementById('myTiles').value = document.getElementById('card_left_column_alt').scrollTop;" 
 							onmousedown=" document.getElementById('tileGroupButtons').style.display = 'none';"
-							class="tab" data-tab="about" id="myMaps" title="Show Maps List 🗺️">Maps 🌄</button>
+							class="tab active" data-tab="about" id="myMaps" title="Show Maps List 🗺️">Maps 🗺️</button>
 							
 <label style="display: inline-block; padding: 6px 10px; color: white; cursor: pointer; border-top-left-radius: 12px;border-top-right-radius: 12px;border-color: transparent;background: paleturquoise;color: #283442;font-size: medium;font-weight: bold;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;"
 class="button-label" title="⊞ Grid On or Off">
