@@ -1,7 +1,7 @@
 <h1 align="center">RPG Tile Map Level Editor by KingBell</h1>
 
-Play on ITCHIO: https://kingbell.itch.io/rpg-tile-map-level-editor
-Download Tileset: https://kingbell.itch.io/rpg-tile-map-level-editor/purchase
+Play on ITCHIO: https://kingbell.itch.io/rpg-tile-map-level-editor <br><br>
+Download Tileset: https://kingbell.itch.io/rpg-tile-map-level-editor/purchase <br>
 
 TileMap Editor is a fat-free tile map editor with zero dependencies and a scalable, mobile-friendly interface. 
 <br><br>
